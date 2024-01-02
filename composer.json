@@ -1,0 +1,20 @@
+{
+    "name": "yepbro/smsc",
+    "description": "API for smsc.ru",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": ">=8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yepbro\\Smsc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Denis",
+            "email": "denis@yepbro.ru"
+        }
+    ]
+}
