@@ -1,5 +1,5 @@
 {
-    "name": "yepbro/smsc",
+    "name": "yepbro/sms-smsc",
     "description": "API for smsc.ru",
     "type": "library",
     "license": "MIT",
