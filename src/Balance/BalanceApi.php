@@ -9,8 +9,6 @@ use Yepbro\Smsc\Balance\Enums\Format;
 
 /**
  * Работа с данными баланса в сервисе
- *
- * @see https://smsc.ru/api/http/balance/get_balance
  */
 class BalanceApi
 {
@@ -38,6 +36,7 @@ class BalanceApi
     /**
      * Получить значение текущего баланса
      *
+     * @see https://smsc.ru/api/http/balance/get_balance
      * @throws GuzzleException
      */
     public function get(): Balance
